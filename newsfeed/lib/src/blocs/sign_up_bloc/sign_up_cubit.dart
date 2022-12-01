@@ -23,6 +23,7 @@ class SignUpCubit extends Cubit<SignUpState> {
         state.password,
         state.firstName,
         state.lastName,
+        state.dateOfBirth,
       ]),
     ));
   }
@@ -36,7 +37,8 @@ class SignUpCubit extends Cubit<SignUpState> {
         password,
         state.firstName,
         state.lastName,
-        ]),
+        state.dateOfBirth,
+      ]),
     ));
   }
 
@@ -49,7 +51,8 @@ class SignUpCubit extends Cubit<SignUpState> {
         state.password,
         firstName,
         state.lastName,
-    ]),
+        state.dateOfBirth,
+      ]),
     ));
   }
 
@@ -61,7 +64,8 @@ class SignUpCubit extends Cubit<SignUpState> {
         state.email,
         state.password,
         state.firstName,
-        lastName
+        lastName,
+        state.dateOfBirth,
       ]),
     ));
   }
@@ -71,9 +75,11 @@ class SignUpCubit extends Cubit<SignUpState> {
     emit(state.copyWith(
       dateOfBirth: dateOfBirth,
       status: Formz.validate([
+        state.email,
         state.password,
         state.firstName,
         state.lastName,
+        dateOfBirth,
       ]),
     ));
   }
@@ -85,6 +91,9 @@ class SignUpCubit extends Cubit<SignUpState> {
       await _authenticationRepository.signUp(
         email: state.email.value,
         password: state.password.value,
+        firstName: state.firstName.value,
+        lastName: state.lastName.value,
+        dateOfBirth: state.dateOfBirth.value,
         gender: gender,
       );
       emit(state.copyWith(status: FormzStatus.submissionSuccess));

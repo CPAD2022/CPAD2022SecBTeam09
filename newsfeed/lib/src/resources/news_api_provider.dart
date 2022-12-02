@@ -2,8 +2,8 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:jiffy/jiffy.dart';
 import 'package:http/http.dart' show Client;
-import 'package:news/src/constants/countries.dart';
-import 'package:news/src/models/source_model.dart';
+import 'package:newsfeed/src/constants/countries.dart';
+import 'package:newsfeed/src/models/source_model.dart';
 import '../models/article/article_model.dart';
 
 class NewsApiProvider {

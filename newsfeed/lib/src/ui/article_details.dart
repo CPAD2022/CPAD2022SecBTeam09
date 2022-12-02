@@ -1,11 +1,11 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:news/src/blocs/news_bloc/news_bloc.dart';
-import 'package:news/src/constants/ColorConstants.dart';
-import 'package:news/src/extensions/Color.dart';
-import 'package:news/src/models/article/article_model.dart';
-import 'package:news/src/utils/app_localizations.dart';
+import 'package:newsfeed/src/blocs/news_bloc/news_bloc.dart';
+import 'package:newsfeed/src/constants/ColorConstants.dart';
+import 'package:newsfeed/src/extensions/Color.dart';
+import 'package:newsfeed/src/models/article/article_model.dart';
+import 'package:newsfeed/src/utils/app_localizations.dart';
 import 'dart:async';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:jiffy/jiffy.dart';

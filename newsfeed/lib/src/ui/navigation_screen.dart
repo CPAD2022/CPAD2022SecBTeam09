@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:news/src/blocs/advanced_search_bloc/advanced_search_bloc.dart';
-import 'package:news/src/constants/ColorConstants.dart';
-import 'package:news/src/extensions/Color.dart';
-import 'package:news/src/ui/favorite_news_screen.dart';
-import 'package:news/src/ui/profile/profile.dart';
-import 'package:news/src/ui/recommended_news/recommendations_screen.dart';
-import 'package:news/src/utils/app_localizations.dart';
+import 'package:newsfeed/src/blocs/advanced_search_bloc/advanced_search_bloc.dart';
+import 'package:newsfeed/src/constants/ColorConstants.dart';
+import 'package:newsfeed/src/extensions/Color.dart';
+import 'package:newsfeed/src/ui/favorite_news_screen.dart';
+import 'package:newsfeed/src/ui/profile/profile.dart';
+import 'package:newsfeed/src/ui/recommended_news/recommendations_screen.dart';
+import 'package:newsfeed/src/utils/app_localizations.dart';
 import 'global_news/global_news_screen.dart';
 
 class NavigationScreen extends StatefulWidget {

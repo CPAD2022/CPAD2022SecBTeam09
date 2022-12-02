@@ -1,8 +1,8 @@
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
 import 'package:flutter/material.dart';
-import 'package:news/src/constants/ColorConstants.dart';
-import 'package:news/src/utils/theme.dart';
+import 'package:newsfeed/src/constants/ColorConstants.dart';
+import 'package:newsfeed/src/utils/theme.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:async';
 

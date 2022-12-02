@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:news/src/blocs/connectivity_bloc/connectivity_bloc.dart';
-import 'package:news/src/constants/ColorConstants.dart';
-import 'package:news/src/extensions/Color.dart';
-import 'package:news/src/ui/dialogs/filter_news_dialog.dart';
-import 'package:news/src/ui/search/search_news.dart';
+import 'package:newsfeed/src/blocs/connectivity_bloc/connectivity_bloc.dart';
+import 'package:newsfeed/src/constants/ColorConstants.dart';
+import 'package:newsfeed/src/extensions/Color.dart';
+import 'package:newsfeed/src/ui/dialogs/filter_news_dialog.dart';
+import 'package:newsfeed/src/ui/search/search_news.dart';
 import 'package:provider/provider.dart';
 
 class SearchAppBar extends StatefulWidget implements PreferredSizeWidget {

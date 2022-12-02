@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:news/src/models/article/article_model.dart';
+import 'package:newsfeed/src/models/article/article_model.dart';
 import '../article_tile.dart';
 
 class RecommendedNewsList extends StatelessWidget {

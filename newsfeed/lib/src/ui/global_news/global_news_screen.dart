@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:news/src/blocs/connectivity_bloc/connectivity_bloc.dart';
-import 'package:news/src/blocs/language_bloc/language_bloc.dart';
-import 'package:news/src/blocs/news_bloc/news_bloc.dart';
-import 'package:news/src/ui/search/search_app_bar.dart';
+import 'package:newsfeed/src/blocs/connectivity_bloc/connectivity_bloc.dart';
+import 'package:newsfeed/src/blocs/language_bloc/language_bloc.dart';
+import 'package:newsfeed/src/blocs/news_bloc/news_bloc.dart';
+import 'package:newsfeed/src/ui/search/search_app_bar.dart';
 import 'package:provider/provider.dart';
-import 'package:news/src/blocs/advanced_search_bloc/advanced_search_bloc.dart';
-import 'package:news/src/ui/global_news/global_news_list.dart';
-import 'package:news/src/ui/global_news/silver_app_bar_globals.dart';
-import 'package:news/src/utils/app_localizations.dart';
+import 'package:newsfeed/src/blocs/advanced_search_bloc/advanced_search_bloc.dart';
+import 'package:newsfeed/src/ui/global_news/global_news_list.dart';
+import 'package:newsfeed/src/ui/global_news/silver_app_bar_globals.dart';
+import 'package:newsfeed/src/utils/app_localizations.dart';
 import '../../models/article/article_model.dart';
 
 class GlobalNews extends StatefulWidget {

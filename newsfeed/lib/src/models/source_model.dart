@@ -1,4 +1,4 @@
-import 'package:news/src/models/article/article_model.dart';
+import 'package:newsfeed/src/models/article/article_model.dart';
 
 class SourceModel {
   String _status;

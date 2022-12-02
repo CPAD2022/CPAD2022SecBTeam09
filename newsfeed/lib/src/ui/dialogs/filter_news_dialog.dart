@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:news/src/constants/enums.dart';
-import 'package:news/src/utils/app_localizations.dart';
+import 'package:newsfeed/src/constants/enums.dart';
+import 'package:newsfeed/src/utils/app_localizations.dart';
 
 SortOptions options = SortOptions.date;
 SortOrder order = SortOrder.desc;

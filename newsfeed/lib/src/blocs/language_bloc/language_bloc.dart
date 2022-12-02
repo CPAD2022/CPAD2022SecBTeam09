@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:news/src/constants/enums.dart';
-import 'package:news/src/utils/shared_preferences_language_service.dart';
+import 'package:newsfeed/src/constants/enums.dart';
+import 'package:newsfeed/src/utils/shared_preferences_language_service.dart';
 import 'package:flutter/material.dart';
 part 'language_event.dart';
 part 'language_state.dart';

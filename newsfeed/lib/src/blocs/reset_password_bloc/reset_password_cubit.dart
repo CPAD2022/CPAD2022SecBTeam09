@@ -1,8 +1,8 @@
 import 'package:bloc/bloc.dart';
 import 'package:formz/formz.dart';
-import 'package:news/src/blocs/reset_password_bloc/reset_password_state.dart';
-import 'package:news/src/models/forms/email.dart';
-import 'package:news/src/resources/user_repository.dart';
+import 'package:newsfeed/src/blocs/reset_password_bloc/reset_password_state.dart';
+import 'package:newsfeed/src/models/forms/email.dart';
+import 'package:newsfeed/src/resources/user_repository.dart';
 
 class ResetPasswordCubit extends Cubit<ResetPasswordState> {
   ResetPasswordCubit(this._authenticationRepository)

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:news/src/blocs/news_bloc/news_bloc.dart';
-import 'package:news/src/models/article/article_model.dart';
+import 'package:newsfeed/src/blocs/news_bloc/news_bloc.dart';
+import 'package:newsfeed/src/models/article/article_model.dart';
 import '../most_popular_news_list.dart';
 
 class SilverAppBarGlobal extends StatelessWidget {

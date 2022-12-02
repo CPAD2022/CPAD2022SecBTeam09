@@ -1,4 +1,4 @@
-import 'package:news/src/constants/enums.dart';
+import 'package:newsfeed/src/constants/enums.dart';
 
 var supportedLanguages = {
   'English': Language.EN,

@@ -1,9 +1,9 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:news/src/constants/ColorConstants.dart';
-import 'package:news/src/extensions/Color.dart';
-import 'package:news/src/models/article/article_model.dart';
+import 'package:newsfeed/src/constants/ColorConstants.dart';
+import 'package:newsfeed/src/extensions/Color.dart';
+import 'package:newsfeed/src/models/article/article_model.dart';
 import 'article_details.dart';
 
 class MostPopularNews extends StatelessWidget {

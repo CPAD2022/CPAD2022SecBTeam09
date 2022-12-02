@@ -5,7 +5,7 @@ import 'package:flutter/foundation.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:hive/hive.dart';
 import 'package:meta/meta.dart';
-import 'package:news/src/models/user/user.dart';
+import 'package:newsfeed/src/models/user/user.dart';
 
 class LogInWithEmailAndPasswordFailure implements Exception {}
 

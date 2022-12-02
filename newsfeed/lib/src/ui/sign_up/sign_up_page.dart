@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:news/src/blocs/sign_up_bloc/sign_up_cubit.dart';
-import 'package:news/src/constants/ColorConstants.dart';
-import 'package:news/src/extensions/Color.dart';
-import 'package:news/src/resources/user_repository.dart';
-import 'package:news/src/ui/sign_up/sign_up_form.dart';
+import 'package:newsfeed/src/blocs/sign_up_bloc/sign_up_cubit.dart';
+import 'package:newsfeed/src/constants/ColorConstants.dart';
+import 'package:newsfeed/src/extensions/Color.dart';
+import 'package:newsfeed/src/resources/user_repository.dart';
+import 'package:newsfeed/src/ui/sign_up/sign_up_form.dart';
 
 class SignUpPage extends StatelessWidget {
   const SignUpPage({Key key}) : super(key: key);

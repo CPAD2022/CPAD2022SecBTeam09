@@ -2,11 +2,11 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:news/src/blocs/category_bloc/category_bloc.dart';
-import 'package:news/src/constants/categories.dart';
-import 'package:news/src/models/category/category_tile.dart';
-import 'package:news/src/utils/app_localizations.dart';
-import 'package:news/src/utils/shared_preferences_topic_select_service.dart';
+import 'package:newsfeed/src/blocs/category_bloc/category_bloc.dart';
+import 'package:newsfeed/src/constants/categories.dart';
+import 'package:newsfeed/src/models/category/category_tile.dart';
+import 'package:newsfeed/src/utils/app_localizations.dart';
+import 'package:newsfeed/src/utils/shared_preferences_topic_select_service.dart';
 import '../constants/ColorConstants.dart';
 import '../extensions/Color.dart';
 import 'navigation_screen.dart';
@@ -46,7 +46,7 @@ class _TopicSelectScreenState extends State<TopicSelectScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Team 9'),
+        title: Text('NewsFeed'),
         backgroundColor: HexColor.fromHex(ColorConstants.primaryColor),
       ),
       body: Center(

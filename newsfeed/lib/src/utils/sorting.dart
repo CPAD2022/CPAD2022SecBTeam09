@@ -1,5 +1,5 @@
-import 'package:news/src/constants/enums.dart';
-import 'package:news/src/models/article/article_model.dart';
+import 'package:newsfeed/src/constants/enums.dart';
+import 'package:newsfeed/src/models/article/article_model.dart';
 
 class Sort {
   static ArticleModel sortByDate(ArticleModel articlesModel, SortOrder order) {

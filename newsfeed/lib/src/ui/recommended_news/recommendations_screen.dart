@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:news/src/blocs/advanced_search_bloc/advanced_search_bloc.dart';
-import 'package:news/src/blocs/category_bloc/category_bloc.dart';
-import 'package:news/src/blocs/connectivity_bloc/connectivity_bloc.dart';
-import 'package:news/src/blocs/language_bloc/language_bloc.dart';
-import 'package:news/src/blocs/news_bloc/news_bloc.dart';
-import 'package:news/src/constants/ColorConstants.dart';
-import 'package:news/src/constants/categories.dart';
-import 'package:news/src/extensions/Color.dart';
-import 'package:news/src/models/article/article_model.dart';
-import 'package:news/src/ui/recommended_news/recommended_news_list.dart';
-import 'package:news/src/ui/search/search_app_bar.dart';
-import 'package:news/src/utils/app_localizations.dart';
+import 'package:newsfeed/src/blocs/advanced_search_bloc/advanced_search_bloc.dart';
+import 'package:newsfeed/src/blocs/category_bloc/category_bloc.dart';
+import 'package:newsfeed/src/blocs/connectivity_bloc/connectivity_bloc.dart';
+import 'package:newsfeed/src/blocs/language_bloc/language_bloc.dart';
+import 'package:newsfeed/src/blocs/news_bloc/news_bloc.dart';
+import 'package:newsfeed/src/constants/ColorConstants.dart';
+import 'package:newsfeed/src/constants/categories.dart';
+import 'package:newsfeed/src/extensions/Color.dart';
+import 'package:newsfeed/src/models/article/article_model.dart';
+import 'package:newsfeed/src/ui/recommended_news/recommended_news_list.dart';
+import 'package:newsfeed/src/ui/search/search_app_bar.dart';
+import 'package:newsfeed/src/utils/app_localizations.dart';
 import 'package:provider/provider.dart';
 
 String _selectedCategory;
@@ -74,7 +74,7 @@ class _RecommendationsScreenState extends State<RecommendationsScreen> {
     return Scaffold(
       appBar: connectionState == ConnectivityStatus.Offline
           ? AppBar(
-              title: Text('Team 9'),
+              title: Text('NewsFeed'),
               backgroundColor: HexColor.fromHex(ColorConstants.primaryColor),
             )
           : SearchAppBar(_filter, searchNews, true, sortNews),

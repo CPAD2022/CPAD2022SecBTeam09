@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:news/src/models/category/category_tile.dart';
+import 'package:newsfeed/src/models/category/category_tile.dart';
 
 var categories = [
   CategoryTile(

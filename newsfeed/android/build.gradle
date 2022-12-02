@@ -6,15 +6,17 @@ buildscript {
     }
 
     dependencies {
-        classpath "com.android.tools.build:gradle:4.2.2"
+        classpath 'com.android.tools.build:gradle:4.1.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.gms:google-services:4.3.5'
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.5.1'
     }
 }
 
 allprojects {
     repositories {
         google()
-        mavenCentral()
+        jcenter()
     }
 }
 
@@ -28,4 +30,15 @@ subprojects {
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+
+
+gradle.taskGraph.whenReady { taskGraph ->
+    def tasks = taskGraph.getAllTasks()
+    def buildTasks = tasks.find { it.name.startsWith('build') && it.getGroup() == 'build' }
+    if (buildTasks) {
+        tasks.findAll {it.name.startsWith('test')}.each { task ->
+            task.enabled = false
+        }
+    }
 }

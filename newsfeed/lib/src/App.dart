@@ -41,10 +41,6 @@ class AppView extends StatefulWidget {
   _AppViewState createState() => _AppViewState();
 }
 
-class AppView extends StatefulWidget {
-  @override
-  _AppViewState createState() => _AppViewState();
-}
 
 class _AppViewState extends State<AppView> {
   final _navigatorKey = GlobalKey<NavigatorState>();

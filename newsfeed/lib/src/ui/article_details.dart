@@ -119,7 +119,7 @@ class _ArticleDetailsState extends State<ArticleDetails> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Team 9 - ' + article.source.name),
+        title: Text('NewsFeed - ' + article.source.name),
         backgroundColor: HexColor.fromHex(ColorConstants.primaryColor),
       ),
       floatingActionButton: FloatingActionButton(

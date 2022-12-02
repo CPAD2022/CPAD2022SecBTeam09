@@ -57,7 +57,7 @@ class _UserPageState extends State<UserPage> {
       appBar: PreferredSize(
         preferredSize: Size.fromHeight(50.0),
         child: AppBar(
-          title: Text("Team 9"),
+          title: Text("NewsFeed"),
           backgroundColor: HexColor.fromHex(ColorConstants.primaryColor),
         ),
       ),

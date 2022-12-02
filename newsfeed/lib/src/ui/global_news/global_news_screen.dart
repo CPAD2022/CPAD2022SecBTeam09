@@ -84,9 +84,9 @@ class _GlobalNewsState extends State<GlobalNews> {
   @override
   Widget build(BuildContext context) {
     if (connectionState == ConnectivityStatus.Offline) {
-      this._appBarTitle = Text("Team 9 - Offline");
+      this._appBarTitle = Text("NewsFeed - Offline");
     } else {
-      this._appBarTitle = Text("Team 9");
+      this._appBarTitle = Text("NewsFeed");
     }
 
     return Scaffold(

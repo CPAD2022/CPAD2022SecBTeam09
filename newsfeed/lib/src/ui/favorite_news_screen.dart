@@ -29,7 +29,7 @@ class FavoriteNewsScreenState extends State<FavoriteNewsScreen> {
       appBar: PreferredSize(
         preferredSize: Size.fromHeight(50.0),
         child: AppBar(
-          title: Text("Team 9"),
+          title: Text("NewsFeed"),
           backgroundColor: HexColor.fromHex(ColorConstants.primaryColor),
           actions: <Widget>[
             selectedArticles.isEmpty

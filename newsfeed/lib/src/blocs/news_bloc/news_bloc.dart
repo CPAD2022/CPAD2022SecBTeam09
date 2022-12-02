@@ -1,7 +1,7 @@
-import 'package:news/src/constants/enums.dart';
-import 'package:news/src/models/source_model.dart';
-import 'package:news/src/ui/dialogs/filter_news_dialog.dart';
-import 'package:news/src/utils/sorting.dart';
+import 'package:newsfeed/src/constants/enums.dart';
+import 'package:newsfeed/src/models/source_model.dart';
+import 'package:newsfeed/src/ui/dialogs/filter_news_dialog.dart';
+import 'package:newsfeed/src/utils/sorting.dart';
 import 'package:rxdart/rxdart.dart';
 import '../../resources/news_repository.dart';
 import '../../models/article/article_model.dart';

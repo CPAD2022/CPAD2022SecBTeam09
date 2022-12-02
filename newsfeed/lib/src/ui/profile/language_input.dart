@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:news/src/blocs/language_bloc/language_bloc.dart';
-import 'package:news/src/constants/languages.dart';
-import 'package:news/src/utils/app_localizations.dart';
+import 'package:newsfeed/src/blocs/language_bloc/language_bloc.dart';
+import 'package:newsfeed/src/constants/languages.dart';
+import 'package:newsfeed/src/utils/app_localizations.dart';
 
 class LanguageInput extends StatelessWidget {
   @override

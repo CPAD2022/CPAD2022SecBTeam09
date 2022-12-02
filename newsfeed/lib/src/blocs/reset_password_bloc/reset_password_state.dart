@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 import 'package:formz/formz.dart';
-import 'package:news/src/models/forms/email.dart';
+import 'package:newsfeed/src/models/forms/email.dart';
 
 class ResetPasswordState extends Equatable {
   const ResetPasswordState({

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:news/src/constants/ColorConstants.dart';
-import 'package:news/src/extensions/Color.dart';
-import 'package:news/src/utils/app_localizations.dart';
+import 'package:newsfeed/src/constants/ColorConstants.dart';
+import 'package:newsfeed/src/extensions/Color.dart';
+import 'package:newsfeed/src/utils/app_localizations.dart';
 
 class SearchNews extends StatelessWidget {
   SearchNews(this.filter, this.searchNews, this.closeInputField);

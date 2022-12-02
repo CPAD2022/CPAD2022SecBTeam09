@@ -1,5 +1,5 @@
 import 'package:hive/hive.dart';
-import 'package:news/src/blocs/news_bloc/news_bloc.dart';
+import 'package:newsfeed/src/blocs/news_bloc/news_bloc.dart';
 
 part 'article_model.g.dart';
 

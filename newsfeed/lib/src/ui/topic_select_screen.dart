@@ -46,7 +46,7 @@ class _TopicSelectScreenState extends State<TopicSelectScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Team 9'),
+        title: Text('NewsFeed'),
         backgroundColor: HexColor.fromHex(ColorConstants.primaryColor),
       ),
       body: Center(

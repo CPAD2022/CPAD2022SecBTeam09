@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:news/src/resources/category_repository.dart';
+import 'package:newsfeed/src/resources/category_repository.dart';
 import 'package:rxdart/rxdart.dart';
 
 class CategoryBloc {

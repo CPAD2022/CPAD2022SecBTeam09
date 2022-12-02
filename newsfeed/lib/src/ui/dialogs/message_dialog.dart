@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:news/src/utils/app_localizations.dart';
+import 'package:newsfeed/src/utils/app_localizations.dart';
 
 class MessageDialog {
   static Future<void> showMessageDialog({context, title, body}) async {

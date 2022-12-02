@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:hive/hive.dart';
-import 'package:news/src/models/source_model.dart';
+import 'package:newsfeed/src/models/source_model.dart';
 import 'news_api_provider.dart';
 import '../models/article/article_model.dart';
 

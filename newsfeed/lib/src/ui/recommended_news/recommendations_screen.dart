@@ -74,7 +74,7 @@ class _RecommendationsScreenState extends State<RecommendationsScreen> {
     return Scaffold(
       appBar: connectionState == ConnectivityStatus.Offline
           ? AppBar(
-              title: Text('Flutter News9'),
+              title: Text('Team 9'),
               backgroundColor: HexColor.fromHex(ColorConstants.primaryColor),
             )
           : SearchAppBar(_filter, searchNews, true, sortNews),

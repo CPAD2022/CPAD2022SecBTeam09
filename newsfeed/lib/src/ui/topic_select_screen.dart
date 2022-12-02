@@ -46,7 +46,7 @@ class _TopicSelectScreenState extends State<TopicSelectScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Flutter News9'),
+        title: Text('Team 9'),
         backgroundColor: HexColor.fromHex(ColorConstants.primaryColor),
       ),
       body: Center(

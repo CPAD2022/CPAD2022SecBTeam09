@@ -57,7 +57,7 @@ class _UserPageState extends State<UserPage> {
       appBar: PreferredSize(
         preferredSize: Size.fromHeight(50.0),
         child: AppBar(
-          title: Text("Flutter News9"),
+          title: Text("Team 9"),
           backgroundColor: HexColor.fromHex(ColorConstants.primaryColor),
         ),
       ),

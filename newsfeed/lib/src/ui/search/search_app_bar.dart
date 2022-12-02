@@ -30,13 +30,13 @@ class _SearchAppBarState extends State<SearchAppBar> {
 
   @override
   void initState() {
-    _appBarTitle = widget.appBarTitle ?? Text('Flutter News9');
+    _appBarTitle = widget.appBarTitle ?? Text('Team 9');
     super.initState();
   }
 
   @override
   void didUpdateWidget(covariant SearchAppBar oldWidget) {
-    _appBarTitle = widget.appBarTitle ?? Text('Flutter News9');
+    _appBarTitle = widget.appBarTitle ?? Text('Team 9');
     super.didUpdateWidget(oldWidget);
   }
 
@@ -68,10 +68,10 @@ class _SearchAppBarState extends State<SearchAppBar> {
   void didChangeDependencies() {
     var connectionState = Provider.of<ConnectivityStatus>(context);
     if (connectionState == ConnectivityStatus.Offline) {
-      this._appBarTitle = Text("Flutter News9 - Offline");
+      this._appBarTitle = Text("Team 9 - Offline");
     } else if (connectionState == ConnectivityStatus.Cellular ||
         connectionState == ConnectivityStatus.WiFi) {
-      this._appBarTitle = Text("Flutter News9");
+      this._appBarTitle = Text("Team 9");
     }
     super.didChangeDependencies();
   }
@@ -91,7 +91,7 @@ class _SearchAppBarState extends State<SearchAppBar> {
   void _closeInputField() {
     setState(() {
       this._searchIcon = new Icon(Icons.search);
-      this._appBarTitle = new Text('Flutter News9');
+      this._appBarTitle = new Text('Team 9');
       widget.filter.clear();
     });
   }

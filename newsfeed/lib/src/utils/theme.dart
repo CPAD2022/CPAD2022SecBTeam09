@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:news/src/constants/ColorConstants.dart';
+import 'package:news/src/extensions/Color.dart';
 
 final ThemeData kLightTheme = _buildLightTheme();
 

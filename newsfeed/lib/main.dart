@@ -17,7 +17,7 @@ import 'package:flutter_flavor/flutter_flavor.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
-    name: 'news',
+    //name: "xlr8",
     options: FirebaseOptions(
         apiKey: "AIzaSyD_e3sciyTCutA2wNLJjHhTgbMt-4PU_HU",
         authDomain: "newsfeed-abc2e.firebaseapp.com",

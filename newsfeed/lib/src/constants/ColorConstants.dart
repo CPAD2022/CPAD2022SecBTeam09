@@ -1,17 +1,17 @@
 class ColorConstants {
-  static String primaryColor = "#1942f5";
+  static String primaryColor = "#ffad33";
   static String secondaryColor = "#EFEFEF";
   static String silverGray = "#C0C0C0";
   static String primaryTextColor = "#EFEFEF";
   static String selectedTextColor = "#EFEFEF";
-  static String callToAction = "#1942f5";
+  static String callToAction = "#ffad33";
   static String callToActionDisables = "#b8c5fc";
 
   static void setLightColors() {
-    primaryColor = "#1942f5";
+    primaryColor = "#ffad33";
     secondaryColor = "#EFEFEF";
     primaryTextColor = "303030";
-    callToAction = "#1942f5";
+    callToAction = "#ffad33";
     callToActionDisables = "#b8c5fc";
   }
 
